@@ -43,7 +43,7 @@ void PRINT_LCS(string B, int i, int j)
 	else
 		PRINT_LCS(B, i, j - 1);
 }
-void main()
+int main()
 {
 	string X, Y;
 	cin >> X >> Y;
